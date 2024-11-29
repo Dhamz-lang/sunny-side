@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue:hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+  }
+  
+header{
+  border: 2px solid green;
+  background-color: aqua;
+  min-height: 100vh;
+  background-image: url('./images/desktop/image-header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header nav{
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 70px;
+}
+nav ul{
+  border: 2px solid purple;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+ul li{
+  color: var(white);
+  color: white;
+}
+.ham-times{
+  display: none;
+}
+
+.creative{
+  border: 3px solid white;
+  text-align: center;
+  font-size: 90px;
+  color:white;
+  margin-top: 0;
+}
+.arrow{
+  display: flex;
+  justify-content:center;
+  margin-top: 130px;
+}
+
+.egg-section{
+  border: 2px soild red;
+  display: flex;
+}
+.egg-text{
+  border: 3px solid purple;
+  height: 900px;
+  width: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.egg-content{
+  border: 2px solid red;
+  max-width: 500px;
+}
+.Transform{
+  font-size: 35px;
+
+}
+
+.letter{
+ margin-top: 30px;
+ line-height: 1.5;
+
+}
+
+.learn{
+  margin-top: 15px; 
+  border-bottom:  2px solid yellow;
+}
+.egg-content h4{
+  margin-top: 15px; 
+  border-bottom:  10px solid yellow;
+  line-height: 0.5;
+  display: inline-block;
+  border-radius: 10px;
+
+}
+
+
+
+.egg-image{
+  border: 3px solid blue;
+  height: 900px;
+  width: 50%;
+  background-image: url('./images/desktop/image-transform.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cup-section{
+  border: 1px solid palevioletred;
+  display: flex;
+}
+.cup-text{
+  border: 3px solid purple;
+  height: 900px;
+  width: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;                        
+}
+
+.cup-content{
+  border: 2px solid red;
+  max-width: 500px;
+}
+
+.text{
+  font-size: 35px;
+}
+.stand{
+  margin-top: 30px;
+  line-height: 1.5; 
+}
+.more{
+  margin-top: 15px; 
+  border-bottom:  2px solid yellow;
+}
+
+.cup-content h4{
+  margin-top: 15px; 
+  border-bottom:  10px solid yellow;
+  line-height: 0.5;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.cup-image{
+  border: 1px solid red;
+  height: 900px;
+  width: 50%;
+  background-image:url("./images/desktop/image-stand-out.jpg") ;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-section{
+  border: 1px solid black;
+  display: flex;
+  align-items: end;
+}
+
+.cherry-text{
+  border: 5px solid purple;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+
+  /* width: 50%; */
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+}
+
+.cherry-content{
+  border: 3px solid;
+  max-width: 300px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  /* margin-top: 50px; */
+}
+
+
+.cherry-image{
+  border: 3px solid purple;
+  height: 900px;
+  width: 50%;
+  background-image:url("./images/desktop/image-graphic-design.jpg") ;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.orange-image{
+  border: 1px solid purple;
+  height: 900px;
+  width: 50%;
+  background-image:url("./images/desktop/image-photography.jpg") ;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orange-text{
+  border: 5px solid purple;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+
+.orange-content{
+  border: 3px solid;
+  max-width: 300px;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 150px; */
+  margin-bottom: 50px;
+}
+
+ 
+.testimonials{
+  padding: 50px;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  border: 3px solid red;
+
+}
+
+.testimonials h2{
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 2px solid green;
+} 
+
+.testimonial-container{
+  display: flex;
+  border: 2px solid green;
+  gap: 20px;
+  /* 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  justify-content: center;
+  width: 100%; */
+  
+}
+
+.container-one{
+ border: 2px solid green;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.bus-image{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+.bus-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* 
+.testimonal h3{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: aqua;
+}
+.testimonal p:last-of-type{
+  font-size: 0.9rem;
+  color: aliceblue;
+}  */
+/* .grid{
+  border: 2px solid purple;
+  display: flex;
+  grid-template-columns: repeat(4,1fr);
+  width: 100%;
+  height: 100vh;
+} */
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 3px solid purple;
+}
+.grid-box{
+  height: 500px;
+}
+
+.box-one{
+  background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.box-two{
+  background-image: url('./images/desktop/image-gallery-orange.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat; 
+}
+.box-three{
+  background-image: url('./images/desktop/image-gallery-cone.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;  
+}
+.box-four{
+  background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;  
+}
+
+/* .pictures{
+  border: 3px solid red;
+  width: 100%;
+  height: 605px;
+  display: flex;
+}
+
+.bottle{
+   width: 25%;
+  height: 100%;
+}
+
+.orange{ 
+  width: 25%;
+  height: 100%;
+}
+
+.cone{
+  width: 25%;
+  height: 100%;
+}
+
+.sugar{
+width: 25%;
+  height: 100%;
+} */
+
+/* footer{
+background-color: lightseagreen;
+text-align: center;
+padding: 40px 20px;
+margin-top: 500px;
+height: 100%;
+} */
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 10px;
+  background-color: lightseagreen;
+ text-align: center;
+padding: 40px 20px;
+ /* margin-top: 500px; */
+ height: 100%;
+}
+
+.footer-logo{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  margin: 0;
+  color: rgb(58, 86, 5);
+}
+
+footer nav{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul{
+  display: flex;
+  list-style: none;
+  height: 40px;
+}
+
+footer li{
+  color:darkgreen;
+  height: 5opx;
+}
+.footer-social{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px){
+  .ham-times{
+    display: block;
+  }
+  nav ul{
+    display: none;
+  }
+.egg-section{
+  flex-direction: column;
+}
+.egg-text{
+  width: 100%;
+}
+.egg-image{
+width: 100%;
+order: -1;
+}
+.cup-section{
+  flex-direction: column;
+}
+.cup-text{
+  width: 100%;
+}
+.cup-image{
+  width: 100%;
+}
+.box-section{
+  flex-direction: column;
+}
+.cherry-text{
+  width: 100%;
+}
+.cherry-image{
+  width: 100%;
+}
+.orange-text{
+  width: 100%;
+}
+.orange-image{
+  width: 100%;
+}
+.testimonials{
+  flex-direction: column;
+}
+.testimonial-container{
+flex-direction: column;
+}
+.container-one{
+  width: 100%;
+}
+
+.grid{
+grid-template-columns: repeat(2,1fr);
+}
+}

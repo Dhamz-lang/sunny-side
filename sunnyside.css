@@ -17,7 +17,7 @@
   }
   
 header{
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background-color: aqua;
   min-height: 100vh;
   background-image: url('./images/desktop/image-header.jpg');
@@ -27,14 +27,14 @@ header{
 }
 
 header nav{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px 70px;
 }
 nav ul{
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   list-style-type: none;
   gap: 20px;
@@ -48,7 +48,7 @@ ul li{
 }
 
 .creative{
-  border: 3px solid white;
+  /* border: 3px solid white; */
   text-align: center;
   font-size: 90px;
   color:white;
@@ -61,11 +61,11 @@ ul li{
 }
 
 .egg-section{
-  border: 2px soild red;
+  /* border: 2px soild red; */
   display: flex;
 }
 .egg-text{
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
   height: 900px;
   width: 50%;
   font-size: 30px;
@@ -75,7 +75,7 @@ ul li{
 }
 
 .egg-content{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 500px;
 }
 .Transform{
@@ -105,7 +105,7 @@ ul li{
 
 
 .egg-image{
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   height: 900px;
   width: 50%;
   background-image: url('./images/desktop/image-transform.jpg');
@@ -115,11 +115,11 @@ ul li{
 }
 
 .cup-section{
-  border: 1px solid palevioletred;
+  /* border: 1px solid palevioletred; */
   display: flex;
 }
 .cup-text{
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
   height: 900px;
   width: 50%;
   font-size: 30px;
@@ -129,7 +129,7 @@ ul li{
 }
 
 .cup-content{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 500px;
 }
 
@@ -154,7 +154,7 @@ ul li{
 }
 
 .cup-image{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 900px;
   width: 50%;
   background-image:url("./images/desktop/image-stand-out.jpg") ;
@@ -164,13 +164,13 @@ ul li{
 }
 
 .box-section{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: end;
 }
 
 .cherry-text{
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -184,7 +184,7 @@ ul li{
 }
 
 .cherry-content{
-  border: 3px solid;
+  /* border: 3px solid; */
   max-width: 300px;
   justify-content: center;
   text-align: center;
@@ -194,7 +194,7 @@ ul li{
 
 
 .cherry-image{
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
   height: 900px;
   width: 50%;
   background-image:url("./images/desktop/image-graphic-design.jpg") ;
@@ -207,7 +207,7 @@ ul li{
 }
 
 .orange-image{
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   height: 900px;
   width: 50%;
   background-image:url("./images/desktop/image-photography.jpg") ;
@@ -217,7 +217,7 @@ ul li{
 }
 
 .orange-text{
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -226,7 +226,7 @@ ul li{
 }
 
 .orange-content{
-  border: 3px solid;
+  /* border: 3px solid; */
   max-width: 300px;
   justify-content: center;
   text-align: center;
@@ -240,7 +240,7 @@ ul li{
   background-color: white;
   width: 100%;
   height: 100vh;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 
 }
 
@@ -248,12 +248,12 @@ ul li{
   font-size: 2rem;
   margin-bottom: 30px;
   text-align: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 } 
 
 .testimonial-container{
   display: flex;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   gap: 20px;
   /* 
   display: flex;
@@ -265,7 +265,7 @@ ul li{
 }
 
 .container-one{
- border: 2px solid green;
+ /* border: 2px solid green; */
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -275,7 +275,7 @@ ul li{
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .bus-image img{
@@ -306,7 +306,7 @@ ul li{
 .grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 .grid-box{
   height: 500px;
@@ -383,7 +383,7 @@ height: 100%;
   align-items: center;
   gap: 20px;
   height: 10px;
-  background-color: lightseagreen;
+  background-color: hsl(168, 34%, 41%);
  text-align: center;
 padding: 40px 20px;
  /* margin-top: 500px; */
@@ -396,7 +396,7 @@ padding: 40px 20px;
   text-transform: lowercase;
   letter-spacing: 1px;
   margin: 0;
-  color: rgb(58, 86, 5);
+  color: hsl(167, 40%, 24%);
 }
 
 footer nav{
@@ -414,7 +414,7 @@ footer ul{
 }
 
 footer li{
-  color:darkgreen;
+  color:hsl(167, 40%, 24%);
   height: 5opx;
 }
 .footer-social{
